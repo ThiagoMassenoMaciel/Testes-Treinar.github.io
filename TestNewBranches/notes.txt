@@ -1,1 +1,13 @@
-1) criar a branch
+1) faz alteração no file , add , commit na branch anterior
+    git add .
+    git commit -m "comentario para salvar na branch anterior"
+
+2) criar a nova branch
+    git branch NomeNovaBranch
+
+3) agora volta o git checkout para a nova branch 
+    git checkout NomeNovaBranch
+
+4) agora faz alteração nos files, e alva add . e commit  dentro da nova branch 
+    git add .
+    git commit -m "Depois de fazer checkout com a nova branch todo file changed vai pra branch NomeNovaBranch "
