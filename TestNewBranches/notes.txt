@@ -1,1 +1,12 @@
 1) criar a branch
+
+============================APRENDIZAGEM==================================
+Quando for criar nova branch repetir este processo 
+
+  Criar nova branch
+    fazer checkout nela 
+      alterar os files 
+        fazer add .
+         fazer commit -m "' 
+  publicar no repositorio remoto git push --set-upstream origin NOME_DA_NOVA_BRANCH
+  se mudar mais algo no file agora pode fazer so o git push  
