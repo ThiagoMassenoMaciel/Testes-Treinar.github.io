@@ -2,4 +2,4 @@
 ##### git branch 
 ##### git checkout
 ##### modifica arquivos
-##### git git push --set-upstream origin NomeBranch
+##### git push --set-upstream origin NomeBranch
