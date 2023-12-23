@@ -1,5 +1,5 @@
 # Exemplo prático - criar e atualizar branchs 
 ##### git branch 
 ##### git checkout
-##### modifica arquivos
+###### modificar e salvar arquivos
 ##### git push --set-upstream origin NomeBranch
