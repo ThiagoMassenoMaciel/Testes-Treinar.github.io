@@ -1,4 +1,4 @@
-# Todas os testes [aqui](https://thiagomassenomaciel.github.io/Testes-Treinar.github.io/)
+# Todos os testes [aqui](https://thiagomassenomaciel.github.io/Testes-Treinar.github.io/)
 # Exemplo prático - criar e atualizar branchs [aqui](https://thiagomassenomaciel.github.io/Testes-Treinar.github.io/TestNewBranches/index.html)
 ##### git branch 
 ##### git checkout
