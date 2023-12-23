@@ -11,3 +11,26 @@
 4) agora faz alteração nos files, e alva add . e commit  dentro da nova branch 
     git add .
     git commit -m "Depois de fazer checkout com a nova branch todo file changed vai pra branch NomeNovaBranch "
+
+
+============================DUVIDAS==================================
+      Quero colocar a nova branch para o repositorio online , 
+      depois do checkout 
+             de alterar os files 
+             de salvar add . commit pra nova branch 
+      Eu posso so fazer o git push ? 
+
+      Não pois , a branch criada no repositorio local , não esta no repositorio remoto
+          PARA TORNAR NOVA BRANCH LOCAL PARA O REPOSITORIO REMOTO FAZER 
+           git push --set-upstream origin corVermelho
+                      O comando que você mencionou é usado para enviar um ramo local para um repositório remoto e rastrear o 
+                      ramo remoto. O comando git push é usado para enviar alterações locais para um repositório remoto. O 
+                      argumento --set-upstream é usado para rastrear o ramo remoto. O argumento origin especifica o nome do 
+                      repositório remoto e corVermelho é o nome do ramo local que está sendo enviado para o repositório 
+                      remoto
+
+
+                  Em programação, o termo “Upstream” é usado para descrever o repositório original de um projeto de         
+                  software. Por exemplo, se você está trabalhando em um projeto de software que é um fork de outro projeto, 
+                  o projeto original é considerado o upstream do seu projeto . O termo “Downstream” é usado para descrever 
+                  ramificações ou projetos derivados de um projeto upstream .
