@@ -21,8 +21,9 @@
       Eu posso so fazer o git push ? 
 
       Não pois , a branch criada no repositorio local , não esta no repositorio remoto
-          PARA TORNAR NOVA BRANCH LOCAL PARA O REPOSITORIO REMOTO FAZER 
+          PARA TORNAR CADA UMA NOVA BRANCH LOCAL PARA O REPOSITORIO REMOTO FAZER 
            git push --set-upstream origin corVermelho
+
                       O comando que você mencionou é usado para enviar um ramo local para um repositório remoto e rastrear o 
                       ramo remoto. O comando git push é usado para enviar alterações locais para um repositório remoto. O 
                       argumento --set-upstream é usado para rastrear o ramo remoto. O argumento origin especifica o nome do 
@@ -34,3 +35,14 @@
                   software. Por exemplo, se você está trabalhando em um projeto de software que é um fork de outro projeto, 
                   o projeto original é considerado o upstream do seu projeto . O termo “Downstream” é usado para descrever 
                   ramificações ou projetos derivados de um projeto upstream .
+
+============================APRENDIZAGEM==================================
+Quando for criar nova branch repetir este processo 
+
+  Criar nova branch
+    fazer checkout nela 
+      alterar os files 
+        fazer add .
+         fazer commit -m "' 
+  publicar no repositorio remoto git push --set-upstream origin NOME_DA_NOVA_BRANCH
+  se mudar mais algo no file agora pode fazer so o git push  
